@@ -209,3 +209,6 @@ venv.bak/
 # Compiled Static libraries
 
 # Executables
+
+# IDEA
+.idea/
