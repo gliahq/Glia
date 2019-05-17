@@ -4,5 +4,5 @@ G  L  I  A
 
 Offical Desktop Client for Glial Engines
 
-.. |glia-logo| image:: https://i.imgur.com/5jxLy6X.png
-   :width: 100px
+.. |glia-logo| image:: https://i.imgur.com/LiSEGjE.png
+   :width: 127px
