@@ -22,4 +22,6 @@ include Pipfile Pipfile.lock
 recursive-include .github *
 recursive-include resources *
 
+recursive-exclude docs/_build *
+
 global-exclude *.py[cod] __pycache__ *.so *.dylib

@@ -1,6 +1,6 @@
 import builtins
 
-from PyQt5.Qsci import QsciScintilla, QsciLexerPython, QsciAPIs
+from PyQt5.Qsci import QsciAPIs, QsciLexerPython, QsciScintilla
 from PyQt5.QtGui import QFontMetrics
 
 from glia.widgets.editor.lexers import LexerBase

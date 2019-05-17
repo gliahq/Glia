@@ -21,6 +21,14 @@ glia.app module
     :undoc-members:
     :show-inheritance:
 
+glia.definitions module
+-----------------------
+
+.. automodule:: glia.definitions
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
 
 Module contents
 ---------------
