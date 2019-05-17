@@ -1,0 +1,23 @@
+graft docs
+graft glia
+graft ci
+graft tests
+
+include .coveragerc
+include .cookiecutterrc
+include .editorconfig
+
+include AUTHORS.rst
+include CHANGELOG.rst
+include CONTRIBUTING.rst
+include LICENSE
+include README.rst
+include DESCRIPTION.rst
+
+include CODE_OF_CONDUCT.md
+
+include tox.ini .travis.yml .appveyor.yml .readthedocs.yml
+
+recursive-include .github *
+
+global-exclude *.py[cod] __pycache__ *.so *.dylib
