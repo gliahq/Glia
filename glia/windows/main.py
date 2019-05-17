@@ -1,5 +1,8 @@
 from PyQt5.QtCore import QObject, Qt
-from PyQt5.QtWidgets import QMainWindow, QDockWidget, QListWidget, QWidget, QTabWidget, QStatusBar
+from PyQt5.QtWidgets import (
+    QMainWindow, QDockWidget, QListWidget, QWidget, QTabWidget,
+    QStatusBar
+)
 
 from glia.widgets.editor.tabs import EditorTabs
 from glia.widgets.jupyter import TabbedJupyterWidget
