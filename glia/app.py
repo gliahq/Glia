@@ -4,6 +4,7 @@ from pathlib import Path
 from PyQt5.QtWidgets import QApplication
 
 from glia.definitions import ROOT_DIR
+from glia.utils import get_theme_contents
 from glia.windows.main import MainWindow
 
 
@@ -11,9 +12,7 @@ def start(**kwargs):
     app = QApplication(sys.argv)
 
     # Load Theme
-    with open(Path(ROOT_DIR, "resources/themes/dracula.qss")) as qss:
-        app_style = qss.read()
-    app.setStyleSheet(app_style)
+    app.setStyleSheet(get_theme_contents("dracula", "dracula.qss"))
 
     # Create Main Window
     window = MainWindow()

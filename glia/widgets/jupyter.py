@@ -2,6 +2,8 @@ from PyQt5.QtWidgets import QTabWidget
 from qtconsole.manager import QtKernelManager
 from qtconsole.rich_jupyter_widget import RichJupyterWidget
 
+from glia.utils import get_theme_contents
+
 
 class TabbedJupyterWidget(QTabWidget):
     def __init__(self, parent=None):
@@ -25,6 +27,12 @@ class TabbedJupyterWidget(QTabWidget):
         kernel_client.start_channels()
 
         jupyter_widget = RichJupyterWidget()
+
+        jupyter_widget.style_sheet = get_theme_contents(
+            "dracula",
+            "jupyter.css"
+        )
+        jupyter_widget.syntax_style = "dracula"
         jupyter_widget.kernel_manager = kernel_manager
         jupyter_widget.kernel_client = kernel_client
         return jupyter_widget  # Binding this to a variable won't work.

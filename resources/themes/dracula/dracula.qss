@@ -2,3 +2,7 @@ QWidget {
     color: #B0B0B0;
     background-color: #3C4043
 }
+
+QScrollBar::handle:vertical {
+    background: #696969
+}
