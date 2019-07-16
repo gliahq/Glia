@@ -1,12 +1,12 @@
 QPlainTextEdit, QTextEdit {
-    background-color: #2B2B2B;
+    background-color: #282A36;
     background-clip: padding;
     color: #A9B7C6;
     selection-background-color: #555;
 }
 .inverted {
     background-color: #A9B7C6;
-    color: #2B2B2B;
+    color: #282A36;
 }
 .error { color: #FE421F; }
 .in-prompt-number { font-weight: bold; }

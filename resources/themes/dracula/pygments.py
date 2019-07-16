@@ -105,3 +105,24 @@ class DraculaStyle(Style):
 
         Whitespace: "#f8f8f2"
     }
+
+
+EXTRA_STYLES = {
+    "background": "#282A36",
+    "caret": "#A9B7C6",
+    "foreground": "#A9B7C6",
+    "invisibles": "#F8F8F259",
+    "line_highlight": "#32333D",
+    "edge_color": "#4f505a",
+    "selection": "#49483E",
+    "findHighlight": "#FFE792",
+    "findHighlightForeground": "#000000",
+    "selectionBorder": "#222218",
+    "activeGuide": "#9D550FB0",
+    "misspelling": "#F92672",
+    "bracketsForeground": "#F8F8F2A5",
+    "bracketsOptions": "underline",
+    "bracketContentsForeground": "#F8F8F2A5",
+    "bracketContentsOptions": "underline",
+    "tagsOptions": "stippled_underline",
+}
