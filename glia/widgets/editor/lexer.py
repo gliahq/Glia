@@ -4,8 +4,7 @@ import time
 from pygments import lexers, styles
 from pygments.lexer import Error, Text, _TokenType
 from PyQt5.Qsci import QsciLexerCustom
-from PyQt5.QtGui import QColor
-from PyQt5.QtGui import QFont
+from PyQt5.QtGui import QColor, QFont
 
 from resources.themes.dracula.pygments import EXTRA_STYLES
 
