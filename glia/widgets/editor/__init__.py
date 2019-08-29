@@ -107,10 +107,14 @@ class Editor(Qsci.QsciScintilla):
             self.setEdgeColor(QColor(dct["edge_color"]))
 
         if "brackets_background" in dct:
-            self.setMatchedBraceBackgroundColor(QColor(dct["brackets_background"]))
+            self.setMatchedBraceBackgroundColor(
+                QColor(dct["brackets_background"])
+            )
 
         if "brackets_foreground" in dct:
-            self.setMatchedBraceForegroundColor(QColor(dct["brackets_foreground"]))
+            self.setMatchedBraceForegroundColor(
+                QColor(dct["brackets_foreground"])
+            )
 
         if "selection" in dct:
             self.setSelectionBackgroundColor(QColor(dct["selection"]))

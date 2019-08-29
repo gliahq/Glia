@@ -130,8 +130,9 @@ class ViewLexer(QsciLexerCustom):
         t_elapsed = time.time() - t_start
         len_text = len(view.text())
         text_size = convert_size(len_text)
-        view.setWindowTitle(f"Text size: {len_text} - {text_size} Elapsed: {t_elapsed}s")
+        view.setWindowTitle(
+            f"Text size: {len_text} - {text_size} Elapsed: {t_elapsed}s"
+        )
 
     def description(self, style_nr):
         return str(style_nr)
-
