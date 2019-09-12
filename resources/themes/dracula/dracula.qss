@@ -1,6 +1,18 @@
 QWidget {
     color: #B0B0B0;
-    background-color: #3C4043
+    background-color: #3C4043;
+}
+
+QTabWidget::pane {
+  background: #3C3F41;
+}
+
+QTabBar::tab {
+  background: #3C3F41;
+}
+
+QTabBar::tab:selected {
+  background: #4E5254;
 }
 
 QScrollBar::handle:vertical {

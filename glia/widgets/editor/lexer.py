@@ -49,6 +49,9 @@ class ViewLexer(QsciLexerCustom):
             self.setFont(self.font, index)
             index += 1
 
+    def blockLookback(self):
+        return 0
+
     def defaultPaper(self, style):
         return QColor(self.extra_style["background"])
 
